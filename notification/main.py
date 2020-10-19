@@ -32,7 +32,7 @@ async def service_info_api():
     return my_info
 
 
-logger.info('[MAIN]  Init {} version {}'.format(my_info.service_name, my_info.version))
+logger.info('[MAIN] Init {} version {}'.format(my_info.service_name, my_info.version))
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
