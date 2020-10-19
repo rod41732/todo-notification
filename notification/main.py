@@ -23,7 +23,7 @@ class ServiceInfo(BaseModel):
     version: str
 
 
-my_info = ServiceInfo(service_name='Notification Service', version='1.2.3')
+my_info = ServiceInfo(service_name='Notification Service', version='1.2.4')
 service_info = APIRouter()
 
 
